@@ -35,8 +35,11 @@ function Roadmap() {
             >
               Open Terminal <ArrowRightIcon className="w-4 h-4" />
             </button>
-            <button className="border border-gray-300 px-6 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors">
-              View Updates
+            <button
+              className="border border-gray-300 px-6 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors"
+              onClick={() => window.open('https://blyv.gitbook.io/blyv', '_blank')}
+            >
+              View Docs
             </button>
           </div>
         </div>
